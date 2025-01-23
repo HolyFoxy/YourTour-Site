@@ -1,0 +1,35 @@
+@import "./div/div.css";
+@import "./paragraph/paragraph.css";
+
+article.feedbacks_feedback{
+    height: 593px;
+    width: min-content;
+    padding: 40px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #f4f0e9;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+article.photos{
+    display: flex;
+    flex-direction:column;
+    gap: 100;
+}
+
+article.feedbacks_feedback.size_1024{
+    height: 841px;
+    
+}
+
+article.feedbacks_feedback.mobile{
+    padding: 20px;
+    border-radius: 20px;
+    width: fit-content;
+    justify-content: unset;
+    height: fit-content;
+
+}

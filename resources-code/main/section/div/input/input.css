@@ -1,0 +1,64 @@
+input:not([type="radio"], [type="checkbox"]){
+    background-color: #F9F7F4;
+    border-color: #F4F0E9;
+    border-width: 1px;
+    height: inherit;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input[type="radio"],input[type="checkbox"]{
+    height: 26px;
+    width: 26px;
+    margin: auto;
+    vertical-align: -6px;
+}
+
+/*
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+   display: none;
+   -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-datetime-edit-text,
+input[type="date"]::-webkit-datetime-edit-month-field,
+input[type="date"]::-webkit-datetime-edit-day-field,
+input[type="date"]::-webkit-datetime-edit-year-field {
+  color: rgba(166, 166, 166, 1);
+}
+*/
+
+input:hover{
+    cursor: pointer;
+    background: rgba(244, 240, 233, 1);
+}
+
+input::-webkit-input-placeholder{
+    color: rgba(166, 166, 166, 1);
+}
+
+input.mobile{
+    padding: 10px;
+    font-size: 16px;
+    height: 23px;
+}
+
+input[type="radio"].mobile, input[type="checkbox"].mobile{
+    height: 20px;
+    width: 20px;
+}
+
+input[type="checkbox"].mobile{
+    position: relative;
+    top:-23px;
+}
+
+
+
+input:focus{
+    background: rgba(244, 240, 233, 1);
+    color: black;
+}

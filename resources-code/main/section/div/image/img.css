@@ -1,0 +1,165 @@
+img.photos_photo{
+    height: inherit;
+}
+
+img.photos_photo.fixed{
+    scale: 1.84;
+}
+
+img.photos_photo.size_1024{
+    object-fit: cover;
+    width: 314.67px;
+    height: 300px;
+    scale:1;
+}
+
+img.photos_photo.move_on_mobile.mobile{
+    position: relative;
+    left:4px;
+}
+
+img.photos_photo.narrow{
+    position: relative;
+}
+
+img.photos_photo.narrow.fixed{
+    scale: 1.8;
+}
+
+img.photos_photo.narrow.fixed.mobile{
+    scale: 1.37;
+}
+
+img.photos_photo.narrow.size_1024{
+    object-fit: cover;
+    width: 231px;
+    height: 301px;
+    scale: 1;
+}
+
+img.story{
+    transform: scale(1);
+    transition: 300ms;
+
+    position: relative;
+    top: -110px;
+    width: -webkit-fill-available;
+}
+
+img.story.uped{
+    top: -140px;
+}
+
+img.story.size_1024{
+    top: 0;
+}
+
+img.story.uped.size_1024{
+    top: -45px;
+}
+
+img.story.mobile{
+    top:0;
+    width: auto;
+    height: inherit;
+    left: -182px;
+}
+
+img.story.uped.mobile{
+    left: -159px;
+}
+
+img.arrow{
+    filter:brightness(103);
+}
+
+img.CTA_photo{
+    height: 370px;
+    width: 370px;
+}
+
+img.CTA_photo.mobile{
+    height: 130px;
+    width: 130px;
+}
+
+
+img.tour{
+    transform: scale(1);
+    transition: 300ms;
+
+    min-width: -webkit-fill-available;
+    height: inherit;
+
+    display: unset;
+    position: relative;
+}
+
+img.tour.fixed{
+    height: 555px;
+    width: auto;
+    top:-13px;
+}
+
+img.tour.fixed.size_1024{
+    top:-72px;
+    height: 675px;
+}
+
+img.tour.fixed.mobile{
+    top: -78px;
+    height: 475px;
+}
+
+img.head_img{
+    max-height: inherit;
+    position: relative;
+    top:-230px
+}
+
+img.head_img.size_1024{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    top:unset;
+}
+
+img.head_img.mobile{
+    height: 488px;
+    top:unset;
+}
+
+img.logo.mobile{
+    height: 22px;
+}
+
+img.logo.black{
+    filter:brightness(0);
+}
+
+img.rotated{
+    transform: scale(-1,1);
+}
+
+img.telegram.mobile{
+    position: relative;
+    width: 17.87px;
+    height: 16.05px;
+    top: 2.75px;
+    left: 1.38px;
+}
+
+img.facebook.mobile{
+    position: relative;
+    scale: 3;
+    width: 8px;
+    height: 17px;
+    top: 2px;
+}
+
+img.vk.mobile{
+    position: relative;
+    width: 20px;
+    height: 12px;
+    top: 5px;
+    scale: 2.1;
+}

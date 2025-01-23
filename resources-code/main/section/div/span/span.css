@@ -1,0 +1,13 @@
+span{
+    color:black;
+}
+
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span:active{
+    color: #286562;
+}
+
