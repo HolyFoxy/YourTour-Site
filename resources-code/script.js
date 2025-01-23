@@ -30,7 +30,7 @@ select.addEventListener("change", ()=>{
 document.querySelector('button.reset').addEventListener('click', ()=>{select.classList.add('gray')});
 
 const size = window.innerWidth;
-if (size == 1024){
+if ((size >= 1024) && (size < 1920)){
     for(let elem of document.querySelectorAll('*')){
         elem.classList.add('size_1024');
     }
@@ -42,7 +42,7 @@ if (size == 1024){
     }
     document.querySelector('div.footer').classList.remove('size_1920');
 };
-if (size == 360){
+if (size < 1024){
     for(let elem of document.querySelectorAll('*')){
         elem.classList.add('mobile');
     }
