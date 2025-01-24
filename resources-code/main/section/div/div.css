@@ -228,27 +228,33 @@ div.tour_card_content{
     text-align: left;
     top:0%;
     left:0%;
-    padding: 50px;
+    
     justify-content: space-between;
 
     height: -webkit-fill-available;
-}
-
-div.tour_card_content.mobile{
-    padding: 25px;
 }
 
 div.tour_description{
     display: flex;
     flex-direction: column;
 
+    margin: 50px 0 0 50px;
     gap:16px;
     width: -webkit-fill-available;
 }
 
+div.tour_description.mobile{
+    margin: 25px 0 0 25px;
+}
+
 div.tour_footer{
+    margin: 0 0 50px 50px;
     display: flex;
     gap: 15px;
+}
+
+div.tour_footer.mobile{
+    margin: 0 0 25px 25px;
 }
 
 div.tour:hover > div.tour_card_content > div.tour_footer{
@@ -258,6 +264,7 @@ div.tour:hover > div.tour_card_content > div.tour_footer{
     padding-right: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+    margin: 0 0 43px 30px;
 }
 
 div.field{
@@ -535,38 +542,42 @@ div.history_footer{
     flex-direction: row;
     position: absolute;
     text-align: left;
-    top:479px;
+    top:472px; /*479 -> 473 459*/
     left:0%;
     color: #FFFFFF;
-    padding-left: 60px;
+    padding-left: 40px;
     padding-right: 60px;
-    padding-bottom: 60px;
-    width:89.8%;
+    padding-bottom: 53px;
+    width:91.5%;
     justify-content: space-between;
 }
 
 div.history_footer.size_1024{
-    width: 86.9%;
+    width: 89%;
 }
 
 div.history_footer.mobile{
-    padding: 30px;
-    top: 369px;
+    top: 363px;
+    padding: 30px 0px 23px 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 div.history_footer_more{
     display: flex;
     flex-direction: row;
     gap:15px;
-}
-
-div.history_footer_more:hover{
-    background-color: #286562;
     border-radius: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+    align-items: stretch;
+}
+
+div.history_footer_more:hover{
+    background-color: #286562;
+    opacity: 1;
 }
 
 div.history_footer_social{
@@ -574,6 +585,7 @@ div.history_footer_social{
     flex-direction: row;
     gap:35px;
     text-align: right;
+    align-items: center;
 }
 
 div.CTA{

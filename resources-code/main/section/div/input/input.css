@@ -16,13 +16,26 @@ input[type="radio"],input[type="checkbox"]{
     vertical-align: -6px;
 }
 
-/*
+
+input[type="date"]{
+    text-transform: uppercase;
+}
+
 input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
    display: none;
    -webkit-appearance: none;
 }
 
+input[type="date"].gray::-webkit-datetime-edit{
+    color: rgba(166, 166, 166, 1);
+}
+
+input[type="date"].date:focus::-webkit-datetime-edit{
+    color: black;
+}
+
+/*
 input[type="date"]::-webkit-datetime-edit-text,
 input[type="date"]::-webkit-datetime-edit-month-field,
 input[type="date"]::-webkit-datetime-edit-day-field,
@@ -35,6 +48,7 @@ input:hover{
     cursor: pointer;
     background: rgba(244, 240, 233, 1);
 }
+
 
 input::-webkit-input-placeholder{
     color: rgba(166, 166, 166, 1);

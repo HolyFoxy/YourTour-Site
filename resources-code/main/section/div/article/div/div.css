@@ -26,4 +26,5 @@ div.feedbacks_feedback_feedbacker_info.size_1024{
 
 div.feedbacks_feedback_feedbacker_info.mobile{
     width: 203px;
+    overflow: hidden;
 }

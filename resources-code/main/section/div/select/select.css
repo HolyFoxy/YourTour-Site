@@ -1,7 +1,6 @@
 @import "./option/option.css";
 
 select{
-    background-color: #F9F7F4;
     border-color: #F4F0E9;
     border-width: 1px;
     height: 68px;
@@ -9,16 +8,22 @@ select{
     padding: 20px;
 
     font-size:20px;
+
+    appearance: none;
+    overflow: hidden;
+    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50%, #F9F7F4;
 }
 
 select:hover{
     cursor: pointer;
-    background: rgba(244, 240, 233, 1);
+    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50% rgba(244, 240, 233, 1);
 }
 
 select:focus{
-    background: rgba(244, 240, 233, 1);
+    background: rgba(244, 240, 233, 1) url("../../../../../resources-view/dropdown_rotated_arrow.svg") no-repeat 95% 50% ;
+
 }
+
 
 select.gray{
     color: rgba(166, 166, 166, 1);

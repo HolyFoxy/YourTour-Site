@@ -30,7 +30,7 @@ select.addEventListener("change", ()=>{
 document.querySelector('button.reset').addEventListener('click', ()=>{select.classList.add('gray')});
 
 const size = window.innerWidth;
-if ((size >= 1024) && (size < 1920)){
+if ((size >= 1024) && (size < 1600)){
     for(let elem of document.querySelectorAll('*')){
         elem.classList.add('size_1024');
     }
@@ -66,3 +66,10 @@ if (size < 1024){
         elem.classList.add('undisplay');
     }
 };
+
+const inp_dates = document.querySelectorAll("input.date");
+for (let inp of inp_dates)
+{
+    inp.addEventListener("change", ()=>{inp.classList.remove("gray")});
+    document.querySelector('button.reset').addEventListener('click', ()=>{inp.classList.add('gray')});
+}
