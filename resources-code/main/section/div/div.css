@@ -65,6 +65,7 @@ div.head{
 
 div.head.mobile{
     gap: 30px;
+    height: 488px;
 }
 
 div.head_menu{
