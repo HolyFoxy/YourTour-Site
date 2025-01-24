@@ -267,6 +267,16 @@ div.tour:hover > div.tour_card_content > div.tour_footer{
     margin: 0 0 43px 30px;
 }
 
+div.tour.mobile:hover > div.tour_card_content.mobile > div.tour_footer.mobile{
+    background-color: #286562;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3.5px;
+    padding-bottom: 3.5px;
+    margin: 0 0 21.5px 15px;
+}
+
 div.field{
     gap:8px;
     display: flex;
