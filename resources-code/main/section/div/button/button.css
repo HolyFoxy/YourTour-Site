@@ -52,12 +52,12 @@ button.head_button{
 }
 
 button.head_button:hover{
-    background: rgba(239, 165, 1, 1);
+    background: #EFA501;
     cursor: pointer;
 }
 
 button.head_button:active{
-    background: rgba(248, 230, 190, 1);
+    background: #F8E6BE;
     color:rgba(27, 31, 43, 1);
 
 }

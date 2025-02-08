@@ -23,14 +23,14 @@
         <div class="head img"> <img class="head_img" src="./resources-view/header-img.png" alt="header image"></div>
         <div class="head">
             <div class="head_menu">
-                <div class="logo"><img class="logo" src="./resources-view/YourTour.svg" alt="site_logo"></div>
+                <div class="logo"><a href=""><img class="logo" src="./resources-view/YourTour.svg" alt="site_logo"></a></div>
                 <div class="head_menu_ref">
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#tours">Тур</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#create-tour">Создать тур</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#feedbacks">Отзывы</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#histories">Истории</a></p>
                 </div>
-                <p class="head-menu normal no_margin">+7 999 999 99 99</p>
+                <p class="head-menu normal no_margin"><a class="head_menu" href="tel:">+7 999 999 99 99</a></p>
             </div>
             <div class="head_content">
                 <h1 class="no_margin">Идеальные путеществия существуют</h1>
@@ -42,14 +42,14 @@
 
     <main>
         <div class="fixed_menu unvisible">
-            <div class="logo"><img class="logo black" src="./resources-view/YourTour.svg" alt="site_logo"></div>
+            <div class="logo"><a href=""><img class="logo black" src="./resources-view/YourTour.svg" alt="site_logo"></a></div>
                 <div class="head_menu_ref">
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#tours">Тур</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#create-tour">Создать тур</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#feedbacks">Отзывы</a></p>
                     <p class="head-menu normal no_margin"><a class="head_menu" href="#histories">Истории</a></p>
                 </div>
-                <p class="head-menu normal no_margin">+7 999 999 99 99</p>
+                <p class="head-menu normal no_margin"><a class="head_menu" href="tel:">+7 999 999 99 99</a></p>
         </div>
 
         <section class="tours fixed" id="tours">
@@ -154,7 +154,7 @@
                 <div class="fields_group">
                     <div class="field name">
                         <p class="normal no_margin">Имя</p>
-                        <input type="text" name="name" placeholder="Введите Ваше имя">
+                        <input type="text" name="name" placeholder="Введите Ваше имя" autocomplete="username">
                     </div>
                     <div class="field direction">
                         <p class="normal no_margin">Направление</p>
@@ -169,11 +169,11 @@
                 <div class="fields_group">
                     <div class="field email">
                         <p class="normal no_margin">Email</p>
-                        <input type="email" name="email" oninput="this.value = this.value.replace(/[^a-z, @, 0-9, .]/, '')" placeholder="example@mail.ru">
+                        <input type="email" name="email" oninput="this.value = this.value.replace(/[^a-z, @, 0-9, .]/, '')" placeholder="example@mail.ru" autocomplete="email">
                     </div>
                     <div class="field phone">
                         <p class="normal no_margin">Телефон</p>
-                        <input type="tel" name="phone" oninput="this.value = this.value.replace(/[^0-9, +]/, '')" pattern="[0-9]{2}.[0-9]{2}.[0-9]{4}" placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _">
+                        <input type="tel" name="phone" oninput="this.value = this.value.replace(/[^0-9, +]/, '')" pattern="(['+7']+[8]).[0-9]{3}.[0-9]{3}.[0-9]{4}" placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _" autocomplete="tel">
                     </div>
                 </div>
                 <div class="fields_group">
@@ -197,7 +197,7 @@
                         <label><input type="radio" name="age"><p class="normal no_margin">Нет</p></label>
                     </div>
                 </div>
-                <div class="licens"><input type="checkbox" name="licens"> <p class="normal no_margin gray">   Нажимая кнопку, я принимаю условия <span class="licens">Лицензионного договора</span></p></div>
+                <div class="licens"><input type="checkbox" name="licens"> <p class="small no_margin gray">   Нажимая кнопку, я принимаю условия <span class="licens">Лицензионного договора</span></p></div>
                 <div class="buttons">
                     <button class="submit" type="submit">Найти тур</button>
                     <button class="reset" type="reset">Сбросить</button>
@@ -206,7 +206,7 @@
         </section>
         <section class="feedbacks " id="feedbacks">
             <div class="description">
-                <h2 class="description">Отзовы наших путешественников</h2>
+                <h2 class="description">Отзывы наших путешественников</h2>
                 <p class="description normal">Идейные соображения высшего порядка,
                     а также рамки и место обучения кадров</p>
             </div>
@@ -341,29 +341,29 @@
                 </div>
                 <div class="CTA_description">
                     <h3 class="CTA_description">Пора в путешествие вместе с нами!</h3>
-                    <p class="normal gray no_margin">Напиши на почту и узнай подробности на <span class="CTA email">yourtour@gmail.com</span></p>
+                    <p class="normal gray no_margin">Напиши на почту и узнай подробности на <a class="CTA email" href="mailto:">yourtour@gmail.com</a></p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="site_footer">
         <div class="footer size_1920">
             <div class="footer_content">
                 <p class="normal gray no_margin">Наши социальные сети</p>
             </div>
             <div class="footer_content social">
-                <div>
+                <div class="social_url">
                     <img src="./resources-view/Vector.svg" alt="telegram" class="telegram">
-                    <p class="normal no_margin"><span>telegram</span></p>
+                    <p class="normal no_margin">telegram</p>
                 </div>
-                <div>
+                <div class="social_url">
                     <img src="./resources-view/fb.svg" alt="facebook" class="facebook">
-                    <p class="normal no_margin"><span>facebook</span></p>
+                    <p class="normal no_margin">facebook</p>
                 </div>
-                <div>
+                <div class="social_url">
                     <img src="./resources-view/vk.svg" alt="vk" class="vk">
-                    <p class="normal no_margin"><span>vkontakte</span></p>
+                    <p class="normal no_margin">vkontakte</p>
                 </div>
             
             </div>

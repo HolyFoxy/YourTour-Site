@@ -141,26 +141,46 @@ img.rotated{
     transform: scale(-1,1);
 }
 
+img.telegram{
+    height: 19px;
+    position: relative;
+    width: 21px;
+    top: 4px;
+    left: -2px;
+}
+
 img.telegram.mobile{
     position: relative;
     width: 17.87px;
     height: 16.05px;
     top: 2.75px;
-    left: 1.38px;
+    left: -2px;
+}
+
+img.facebook{
+    position: relative;
+    width: 8px;
+    height: 17px;
+    top: 5px;
+    scale: 3;
+    left: -4px;
 }
 
 img.facebook.mobile{
-    position: relative;
-    scale: 3;
-    width: 8px;
-    height: 17px;
     top: 2px;
 }
 
-img.vk.mobile{
+img.vk{
     position: relative;
     width: 20px;
     height: 12px;
-    top: 5px;
+    top: 8px;
+    left: -2px;
     scale: 2.1;
+}
+
+
+img.vk.mobile{
+    top: 5px;
+    left: 1px;
 }

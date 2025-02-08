@@ -12,9 +12,16 @@ body{
     flex-direction: column;
     gap: 135px;
     margin:0;
+
+    width: 1920px;
+}
+
+body.size_1024{
+    width: 1024px;
 }
 
 body.mobile{
+    width: 360px;
     gap:75px;
 }
 

@@ -11,13 +11,14 @@
 @import "./select/select.css";
 @import "./label/label.css";
 @import "./div/a/a.css";
+@import "./textarea/textarea.css";
 
 
 
 
 div.head.img{
     position: relative;
-    width: -webkit-fill-available;
+    width: inherit;
     height: -webkit-fill-available;
     display: contents;
     align-self: center;
@@ -26,7 +27,7 @@ div.head.img{
 
 div.head.img::after{
     content: "";
-	width: 100%;
+	width: inherit;
 	height: 831px;    
 	position: absolute;
 	top: 0;      
@@ -41,6 +42,7 @@ div.head.img.size_1024::after{
 
 div.head.img.mobile::after{
     height: 488px;
+    width: 100%;
 }
 
 div.head.img.mobile{
@@ -59,8 +61,8 @@ div.head{
     display: flex;
     flex-direction: column;
     gap:110px;
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+    width: inherit;
+    height: inherit;
 }
 
 div.head.mobile{
@@ -313,17 +315,6 @@ div.licens.mobile{
 
 div.licens.mobile>p{
     width: 248px;
-}
-
-div.field>textarea{
-    width: inherit;
-    height: inherit;
-    border-radius: 10px;
-    border-style: solid;
-    padding: 20px;
-    background-color: #F9F7F4;
-    border-color: #F4F0E9;
-    border-width: 1px;
 }
 
 div.field>textarea.mobile{
@@ -676,23 +667,31 @@ div.footer_content{
 }
 
 div.footer_content.social{
-    gap: 25px;
+    gap: 27px;
 }
 
 div.footer_content.social.mobile{
-    gap: 15px;
+    gap: 20px;
 }
 
-div.footer_content.social > div {
+div.social_url{
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-div.footer_content.social.mobile > div {
+div.social_url.mobile{
     gap: 5px;
 }
 
+div.social_url:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div.social_url:active{
+    color: rgba(40, 101, 98, 1);
+}
 
 div.unvisible{
     transform: translateY(-100%);
