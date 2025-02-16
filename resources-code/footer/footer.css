@@ -3,8 +3,8 @@ footer.site_footer{
 
     background-color: #F4F0E9;
 
-    display:flex;
+    display:block;
 
-    vertical-align: middle;
+    align-content: center;
     text-align: center;
 }

@@ -4,10 +4,10 @@ textarea{
 
     color: #1B1F2B;
 
+    font-family: inherit;
     font-weight: 400;
     font-size: 20px;
     line-height: 28.4px;
-    letter-spacing: 0%;
 
     width: inherit;
     height: inherit;
@@ -27,3 +27,4 @@ textarea:focus{
     background: #F4F0E9;
     border: 1px solid #A6A6A6
 }
+

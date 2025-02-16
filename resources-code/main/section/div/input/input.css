@@ -12,15 +12,16 @@ input:not([type="radio"], [type="checkbox"]){
 }
 
 input[type="radio"],input[type="checkbox"]{
+    z-index: -1;
     height: 26px;
     width: 26px;
     margin: auto;
     vertical-align: -6px;
 }
 
-
 input[type="date"]{
     text-transform: uppercase;
+    font-family: inherit;
 }
 
 input[type="date"]::-webkit-inner-spin-button,
@@ -37,14 +38,10 @@ input[type="date"].date:focus::-webkit-datetime-edit{
     color: black;
 }
 
-/*
-input[type="date"]::-webkit-datetime-edit-text,
-input[type="date"]::-webkit-datetime-edit-month-field,
-input[type="date"]::-webkit-datetime-edit-day-field,
-input[type="date"]::-webkit-datetime-edit-year-field {
-  color: rgba(166, 166, 166, 1);
+input[type="date"].mobile::-webkit-datetime-edit{
+    font-size: 16px;
 }
-*/
+
 
 input:hover{
     cursor: pointer;

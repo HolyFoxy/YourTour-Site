@@ -18,7 +18,7 @@
 
 div.head.img{
     position: relative;
-    width: inherit;
+    width: -webkit-fill-available;
     height: -webkit-fill-available;
     display: contents;
     align-self: center;
@@ -41,7 +41,7 @@ div.head.img.size_1024::after{
 }
 
 div.head.img.mobile::after{
-    height: 488px;
+    height: 480px;
     width: 100%;
 }
 
@@ -61,7 +61,7 @@ div.head{
     display: flex;
     flex-direction: column;
     gap:110px;
-    width: inherit;
+    width: -webkit-fill-available;
     height: inherit;
 }
 
@@ -311,6 +311,7 @@ div.licens{
 div.licens.mobile{
     width: 278px;
     text-align: left;
+    gap: 5px;
 }
 
 div.licens.mobile>p{
@@ -321,6 +322,7 @@ div.field>textarea.mobile{
     width: -webkit-fill-available;
     height: 132px;
     padding: 10px;
+    font-size: 16px;
 }
 
 div.fields_group{
@@ -395,19 +397,10 @@ div.photos{
     flex-direction: column;
     width: fit-content;
     gap:30px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-div.photos.size_1024{
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 div.photos.mobile{
     gap: 18px;
-    padding-left: 21px;
-    padding-right: 21px;
 }
 
 div.photos_line{

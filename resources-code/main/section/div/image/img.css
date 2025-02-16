@@ -113,20 +113,23 @@ img.tour.fixed.mobile{
 }
 
 img.head_img{
-    max-height: inherit;
-    position: relative;
-    top:-230px
+    z-index: 0;
+    max-height: 1285px;
+    position: inherit;
+    width: max-content;
+    top: -240px;
 }
 
 img.head_img.size_1024{
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    top:unset;
+    height: 865px;
+    top: -35px;
+    left: -135px;
 }
 
 img.head_img.mobile{
-    height: 488px;
-    top:unset;
+    height: 530px;
+    top: -49px;
+    left: -4px;
 }
 
 img.logo.mobile{
