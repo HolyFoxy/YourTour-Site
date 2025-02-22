@@ -1,0 +1,38 @@
+@import "./option/option.css";
+
+select{
+    border-color: #F4F0E9;
+    border-width: 1px;
+    height: 68px;
+    border-radius: 10px;
+    padding: 20px;
+
+    font-size:20px;
+
+    appearance: none;
+    overflow: hidden;
+    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50%, #F9F7F4;
+
+    outline: none;
+}
+
+select:hover{
+    cursor: pointer;
+    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50% rgba(244, 240, 233, 1);
+}
+
+select:focus{
+    background: rgba(244, 240, 233, 1) url("../../../../../resources-view/dropdown_rotated_arrow.svg") no-repeat 95% 50% ;
+
+}
+
+
+select.gray{
+    color: rgba(166, 166, 166, 1);
+}
+
+select.mobile{
+    font-size: 16px;
+    padding: 10px;
+    height: 46px;
+}

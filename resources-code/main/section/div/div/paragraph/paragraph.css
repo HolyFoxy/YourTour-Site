@@ -1,0 +1,77 @@
+p.big{
+    font-size: 23px;
+    line-height: 28.06px;
+    font-weight: 700;
+}
+
+p.big.mobile{
+    font-size: 16px;
+    line-height: 22.92px;
+    font-weight: 700;
+}
+
+p.normal{
+    font-size: 20px;
+    line-height: 28.4px;
+    font-weight: 400;
+}
+
+p.normal.mobile{
+    font-size: 16px;
+    line-height: 22.72px;
+    font-weight: 400;
+}
+
+p.small{
+    font-size: 17px;
+    line-height: 24.14px;
+    font-weight: 400;
+    letter-spacing: -1%;
+}
+
+p.small.mobile{
+    font-size: 16px;
+    line-height: 22.72px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+}
+
+p.description{
+    max-width: 400px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    color:#a6a6a6;
+}
+
+p.no_margin{
+    margin:0;
+}
+
+p.social:hover{
+    text-decoration: underline;
+}
+
+p.history_description{
+    color:white;
+}
+
+p.gray{
+    color:#a6a6a6;
+}
+
+p.active{
+    color:rgba(239, 165, 1, 1);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+p.active.mobile{
+    text-underline-offset: 4px;
+}
+
+p.tours:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    cursor: pointer;
+}

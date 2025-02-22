@@ -1,0 +1,15 @@
+header{
+    width: inherit;
+    height: 831px;
+    color:white;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    overflow: hidden;
+}
+
+header.mobile{
+    height: 488px;
+}

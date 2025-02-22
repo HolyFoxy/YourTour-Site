@@ -1,0 +1,21 @@
+a.head_menu{
+    color:inherit;
+    text-decoration: unset;
+}
+
+a.head_menu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+a.CTA.email{
+    color:black;
+    text-decoration: unset;
+}
+
+a.CTA.email:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
