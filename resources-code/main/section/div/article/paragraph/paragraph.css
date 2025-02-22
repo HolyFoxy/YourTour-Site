@@ -4,3 +4,8 @@ p.feedbacks_feedback_text{
     margin: 0;
     line-height: 28.06px;
 }
+
+p.feedbacks_feedback_text.mobile{
+    width: 270px;
+    line-height: 23.02px;
+}

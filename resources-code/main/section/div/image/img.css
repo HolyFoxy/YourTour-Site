@@ -71,7 +71,9 @@ img.story.uped.mobile{
 
 img.arrow{
     filter:brightness(103);
-    width: 22px;
+    width: 23px;
+    position: relative;
+    left: 1px;
 }
 
 img.CTA_photo{

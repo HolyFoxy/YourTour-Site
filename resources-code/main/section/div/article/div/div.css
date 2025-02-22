@@ -28,4 +28,5 @@ div.feedbacks_feedback_feedbacker_info.mobile{
     width: 203px;
     overflow: hidden;
     gap: 9px;
+    justify-content: flex-end;
 }

@@ -267,7 +267,7 @@ div.tour_footer{
 }
 
 div.tour_footer.mobile{
-    margin: 0 0 25px 25px;
+    margin: 0 0 26px 25px;
 }
 
 div.tour:hover > div.tour_card_content > div.tour_footer{
@@ -389,7 +389,7 @@ div.feedbacks.size_1024{
 
 div.feedbacks.mobile{
     flex-direction: column;
-    gap: 18px;
+    gap: 20px;
     padding-left: 21px;
     padding-right: 21px;
 }
@@ -405,11 +405,11 @@ div.description{
 
 div.description.mobile{
     max-width: 319px;
-    gap:30.9px;
+    gap:20px;
 }
 
-div.description.tour.mobile{
-    gap:30px
+div.description.tours.mobile{
+    gap:31px
 }
 
 div.photos{
