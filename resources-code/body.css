@@ -1,0 +1,16 @@
+@import "./main/main.css";
+@import "./footer/footer.css";
+@import "./header/header.css";
+
+body{
+    font-family:"Roboto", "Arial", sans-serif;
+    font-size:medium;
+    color:black;
+    background-color: #F9F7F4;
+
+    margin: 0px;
+}
+
+.undisplay{
+    display: none;
+}

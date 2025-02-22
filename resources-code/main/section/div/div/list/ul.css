@@ -1,0 +1,14 @@
+ul.history_description{
+    color:white;
+    font-size: 20px;
+    line-height: 28.4px;
+    font-weight: 400;
+}
+
+ul.history_description.mobile{
+    font-size: 16px;
+    line-height: 22.72px;
+    font-weight: 400;
+    padding-left: 26px;
+    margin-top: 26px;
+}
