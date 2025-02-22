@@ -549,7 +549,7 @@ div.history_description{
 div.history_description.mobile{
     max-width: 263px;
     gap: 20px;
-    padding: 30px;
+    padding: 31px;
 }
 
 div.history_footer{
