@@ -685,10 +685,10 @@ div.footer_content.social{
 }
 
 div.footer_content.social.mobile{
-    gap: 20px;
+    gap: 22px;
     position: relative;
     left: 2px;
-    top: 2px;
+    top: 0px;
 }
 
 div.social_url{
@@ -699,6 +699,11 @@ div.social_url{
 
 div.social_url.mobile{
     gap: 5px;
+}
+
+div.social_url.facebook.mobile{
+    position: relative;
+    left: 6px;
 }
 
 div.social_url:hover{
