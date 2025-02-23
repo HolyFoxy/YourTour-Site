@@ -120,7 +120,8 @@ img.head_img{
     max-height: 1285px;
     position: inherit;
     width: max-content;
-    top: -240px;
+    top: -227px;
+    left: -4px;
 }
 
 img.head_img.size_1024{

@@ -73,14 +73,14 @@ if (size == 360){
 window.addEventListener('resize', resize_site);
 
 function resize_site(){
-    if (window.innerWidth < 1920 && (temp_size=="fhd" || temp_size == "shd")){
+    if (window.innerWidth < 1919 && (temp_size=="fhd" || temp_size == "shd")){
         document.querySelector('img.head_img').style.left = ((window.innerWidth - 1920)/2) + 'px';
         document.querySelector('div.head_menu').style.paddingLeft = (window.innerWidth * (0.196 * (window.innerWidth/1920))) + 'px';
         document.querySelector('div.head_menu').style.paddingRight = (window.innerWidth * (0.196 * (window.innerWidth/1920))) + 'px';
 
         document.querySelector('div.fixed_menu').style.paddingLeft = (window.innerWidth * (0.196 * (window.innerWidth/1920))) + 'px';
         document.querySelector('div.fixed_menu').style.paddingRight = (window.innerWidth * (0.196 * (window.innerWidth/1920))) + 'px';
-    } else if (window.innerWidth > 1920){
+    } else if (window.innerWidth >= 1919){
         document.querySelector('img.head_img').style.left = '';
         document.querySelector('div.head_menu').style.paddingLeft = '';
         document.querySelector('div.head_menu').style.paddingRight = '';

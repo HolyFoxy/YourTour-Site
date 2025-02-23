@@ -255,6 +255,10 @@ div.tour_description{
     width: -webkit-fill-available;
 }
 
+div.tour_description.size_1024{
+    margin: 50px 60px 0 50px;
+}
+
 div.tour_description.mobile{
     margin: 25px 0 0 25px;
 }
