@@ -11,18 +11,18 @@ select{
 
     appearance: none;
     overflow: hidden;
-    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50%, #F9F7F4;
+    background:url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 93.8% 51.3%, #F9F7F4;
 
     outline: none;
 }
 
 select:hover{
     cursor: pointer;
-    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 95% 50% rgba(244, 240, 233, 1);
+    background: url("../../../../../resources-view/dropdown_arrow.svg") no-repeat 93.8% 51.3% rgba(244, 240, 233, 1);
 }
 
 select:focus{
-    background: rgba(244, 240, 233, 1) url("../../../../../resources-view/dropdown_rotated_arrow.svg") no-repeat 95% 50% ;
+    background: rgba(244, 240, 233, 1) url("../../../../../resources-view/dropdown_rotated_arrow.svg") no-repeat 93.8% 51.3% ;
 
 }
 

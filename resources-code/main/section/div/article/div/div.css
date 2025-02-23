@@ -22,6 +22,7 @@ div.feedbacks_feedback_feedbacker div.feedbacks_feedback_feedbacker_info{
 
 div.feedbacks_feedback_feedbacker_info.size_1024{
     width: 295px;
+    gap: 8px;
 }
 
 div.feedbacks_feedback_feedbacker_info.mobile{

@@ -88,7 +88,7 @@ function resize_site(){
         document.querySelector('div.fixed_menu').style.paddingLeft = '';
         document.querySelector('div.fixed_menu').style.paddingRight = '';
     } else if (window.innerWidth <=1200 && window.innerWidth >= 990){
-        document.querySelector('img.head_img').style.left = 0-(135 - 0.39*(window.innerWidth - 1024)) + 'px';
+        document.querySelector('img.head_img').style.left = 0-(110 - 0.39*(window.innerWidth - 1024)) + 'px';
         document.querySelector('div.head_menu').style.paddingLeft = '';
         document.querySelector('div.head_menu').style.paddingRight = '';
         document.querySelector('img.head_img').style.scale = '';        

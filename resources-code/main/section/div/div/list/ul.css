@@ -5,6 +5,11 @@ ul.history_description{
     font-weight: 400;
 }
 
+ul.history_description.size_1024{
+    margin-left: -10px;
+    margin-top: 28px;
+}
+
 ul.history_description.mobile{
     font-size: 16px;
     line-height: 22.72px;

@@ -62,6 +62,10 @@ label.custom_check::before{
     border-radius: 5px;
 }
 
+label.custom_check.size_1024::before{
+    left: 31px;
+}
+
 label.custom_check.mobile::before{
     position: absolute;
     content: "";
@@ -84,6 +88,10 @@ label.custom_check.mobile::before{
     left: -33px;
     top: 1px;
     transform: scale(-1, 1) rotate(-45deg);
+}
+
+.licens:checked + label.custom_check.size_1024::after{
+    left: -27px;
 }
 
 .licens:checked + label.custom_check.mobile::after{

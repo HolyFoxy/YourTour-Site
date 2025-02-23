@@ -11,11 +11,15 @@ section{
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    gap:100px;
+    gap:99px;
 }
 
 section.mobile{
     gap:50px;
+}
+
+section.tours.size_1024{
+    gap:106px;
 }
 
 section.create-tour.mobile{
