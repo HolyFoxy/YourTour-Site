@@ -26,6 +26,10 @@ section.tours.size_1024{
     gap:106px;
 }
 
+section.tours.mobile{
+    gap: 50px;
+}
+
 section.create-tour.mobile{
     gap:40px;
 }

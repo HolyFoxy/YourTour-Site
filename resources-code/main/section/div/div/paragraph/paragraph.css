@@ -24,6 +24,7 @@ p.normal.mobile{
 
 p.normal.fixed{
     font-size: 17px;
+    letter-spacing: -0.5px;
 }
 
 p.small{

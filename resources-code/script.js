@@ -99,7 +99,13 @@ function resize_site(){
         document.querySelector('img.head_img').style.left = '';
         document.querySelector('img.head_img').style.scale = 1 + 0.3*((window.innerWidth - 780)/210);
     } else if (window.innerWidth < 780){
+        document.querySelector('img.head_img').style.left = '';
         document.querySelector('img.head_img').style.scale = '';
+
+        document.querySelector('div.fixed_menu').style.paddingLeft = '';
+        document.querySelector('div.fixed_menu').style.paddingRight = '';
+        document.querySelector('div.head_menu').style.paddingLeft = '';
+        document.querySelector('div.head_menu').style.paddingRight = '';
     }
     if (window.innerWidth < 1900 && temp_size == "fhd"){
         for (let elem of document.querySelectorAll('div.photos_photo.on_fhd'))
