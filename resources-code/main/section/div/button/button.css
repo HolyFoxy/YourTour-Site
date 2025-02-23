@@ -51,6 +51,7 @@ button.head_button{
     padding: 3px 19px 3px 19px;
     width: auto;
     height: auto;
+    color:#1B1F2B;
 }
 
 button.head_button.mobile{
@@ -59,11 +60,12 @@ button.head_button.mobile{
 
 button.head_button:hover{
     background: #EFA501;
+    color:#FFFFFF;
     cursor: pointer;
 }
 
 button.head_button:active{
     background: #F8E6BE;
-    color:rgba(27, 31, 43, 1);
+    color:#1B1F2B
 
 }
