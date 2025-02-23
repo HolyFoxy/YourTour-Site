@@ -121,6 +121,9 @@ function resize_site(){
             if (!elem.classList.contains('photos_photo'))
                 elem.classList.remove('size_1024');
         
+        if (!document.querySelector('form').classList.contains('size_1902'))
+            document.querySelector('form').classList.add('size_1920');
+
         temp_size = "shd"
     }else if (window.innerWidth >=1900 && temp_size == "shd"){
         for (let elem of document.querySelectorAll('div.photos_photo.on_fhd'))
