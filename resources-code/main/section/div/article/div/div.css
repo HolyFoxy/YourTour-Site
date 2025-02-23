@@ -18,6 +18,7 @@ div.feedbacks_feedback_feedbacker div.feedbacks_feedback_feedbacker_info{
     display: flex;
     flex-direction: column;
     vertical-align: bottom;
+    gap: 8px;
 }
 
 div.feedbacks_feedback_feedbacker_info.size_1024{

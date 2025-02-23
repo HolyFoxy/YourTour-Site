@@ -69,7 +69,7 @@ div.head{
     left: 0%;
     display: flex;
     flex-direction: column;
-    gap:110px;
+    gap:120px;
     width: -webkit-fill-available;
     height: inherit;
 }
@@ -250,7 +250,7 @@ div.tour_description{
     display: flex;
     flex-direction: column;
 
-    margin: 50px 0 0 50px;
+    margin: 50px 0 75px 50px;
     gap:14px;
     width: -webkit-fill-available;
 }
@@ -320,8 +320,12 @@ div.field.mobile{
 div.licens{
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
 }
+
+div.licens.size_1024{
+    gap: 5px;
+} 
 
 div.licens.mobile{
     width: 278px;
@@ -702,18 +706,13 @@ div.social_url{
     gap: 10px;
 }
 
-div.social_url.facebook.size_1024{
+div.social_url.facebook{
     position: relative;
     left: 6px;
 }
 
 div.social_url.mobile{
     gap: 5px;
-}
-
-div.social_url.facebook.mobile{
-    position: relative;
-    left: 6px;
 }
 
 div.social_url:hover{
