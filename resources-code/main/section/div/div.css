@@ -374,6 +374,10 @@ div.radio{
     gap:32px;
 }
 
+div.radio.mobile{
+    gap:30px;
+}
+
 div.buttons{
     display: flex;
     flex-direction: row;

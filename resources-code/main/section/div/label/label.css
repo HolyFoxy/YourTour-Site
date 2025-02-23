@@ -14,15 +14,15 @@ label.custom_radio, label.custom_check{
 label.custom_radio::before{
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     border-radius: 50px;
-    border: 3px solid #1B1F2B;
+    border: 2px solid #1B1F2B;
     left: -31px;
 }
 
 label.custom_radio.size_1024::before{
-    left: -32px;
+    left: -31px;
 }
 
 label.custom_radio.mobile::before{
@@ -46,7 +46,7 @@ label.custom_radio.mobile::before{
 }
 
 .age:checked + label.custom_radio.size_1024::after{
-    left: -24px;
+    left: -23px;
 }
 
 .age:checked + label.custom_radio.mobile::after{
@@ -62,9 +62,9 @@ label.custom_radio.mobile::before{
 label.custom_check::before{
     position: absolute;
     content: "";
-    width: 20px;
-    height: 20px;
-    border: 3px solid #1B1F2B;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #1B1F2B;
     left: -36px;
     border-radius: 5px;
 }
