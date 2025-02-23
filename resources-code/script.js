@@ -121,8 +121,11 @@ function resize_site(){
             if (!elem.classList.contains('photos_photo'))
                 elem.classList.remove('size_1024');
         
-        if (!document.querySelector('form').classList.contains('size_1902'))
+        if (!document.querySelector('form').classList.contains('size_1920'))
             document.querySelector('form').classList.add('size_1920');
+
+        if (!document.querySelector('div.footer').classList.contains('size_1920'))
+            document.querySelector('div.footer').classList.add('size_1920');
 
         temp_size = "shd"
     }else if (window.innerWidth >=1900 && temp_size == "shd"){
