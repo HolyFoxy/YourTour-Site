@@ -250,7 +250,7 @@ div.tour_description{
     display: flex;
     flex-direction: column;
 
-    margin: 50px 0 75px 50px;
+    margin: 50px 75px 0 50px;
     gap:14px;
     width: -webkit-fill-available;
 }
