@@ -1,8 +1,8 @@
 h1{
-    font-size: 96px;
+    font-size: 95px;
     font-weight: 700;
-    line-height: 104.64px;
-    letter-spacing: 0.02em;
+    line-height: 105px;
+    letter-spacing: 2.5px;
 }
 
 h1.mobile{
@@ -14,4 +14,8 @@ h1.mobile{
 
 h1.no_margin{
     margin:0;
+}
+
+h1.no_margin.size_1024{
+    margin-top: -1px;
 }

@@ -54,8 +54,13 @@ button.head_button{
     color:#1B1F2B;
 }
 
+button.head_button.size_1024{
+    padding: 4px 20px 3px 20px;
+    margin-top: -1px;
+}
+
 button.head_button.mobile{
-    padding: 6px 20px 4px 20px;
+    padding: 6px 20.6px 4px 20px;
 }
 
 button.head_button:hover{

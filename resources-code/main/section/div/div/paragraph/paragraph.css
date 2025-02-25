@@ -22,9 +22,15 @@ p.normal.mobile{
     font-weight: 400;
 }
 
-p.normal.fixed{
+p.normal.size_1024.fixed{
     font-size: 17px;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
+    line-height: 27px;
+}
+
+p.normal.mobile.fixed{
+    font-size: 16px;
+    letter-spacing: -0.05px;
 }
 
 p.small{

@@ -137,6 +137,10 @@ img.head_img.mobile{
     left: -1px;
 }
 
+img.logo.size_1024{
+    margin-top: 3px;
+}
+
 img.logo.mobile{
     position: relative;
     top: 2px;
